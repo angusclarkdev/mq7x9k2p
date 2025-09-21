@@ -1,5 +1,6 @@
 # React Comments Component
 
+![alt text](image.png)
 A nested comments system built with React, TypeScript, and RxDB for client-side persistence.
 
 ## Features

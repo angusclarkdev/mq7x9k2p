@@ -29,7 +29,7 @@ export function NewComment({
             handleAddComment({
               parentId: comment?.id ?? null,
               createdAt: new Date().toISOString(),
-              user: comment?.user ?? generateUsername(),
+              user: generateUsername(),
               content: newComment,
               id: uuidv4(),
               children: [],
@@ -55,7 +55,7 @@ export function NewComment({
             handleAddComment({
               parentId: comment?.id ?? null,
               createdAt: new Date().toISOString(),
-              user: comment?.user ?? generateUsername(),
+              user: generateUsername(),
               content: newComment,
               id: uuidv4(),
               children: [],
