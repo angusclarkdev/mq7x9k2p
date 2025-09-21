@@ -34,7 +34,7 @@ export function CommentNode({
           </span>
         </div>
 
-        <div className="text-gray-900 dark:text-gray-900 text-sm mb-2 leading-relaxed">
+        <div className="text-gray-900 dark:text-gray-900 text-sm mb-2 pr-2">
           {comment.content}
         </div>
 
